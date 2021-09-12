@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/android_x86_64.mk
+    $(LOCAL_DIR)/kangos_x86_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    android_x86_64-eng \
-    android_x86_64-user \
-    android_x86_64-userdebug
+    kangos_x86_64-eng \
+    kangos_x86_64-user \
+    kangos_x86_64-userdebug

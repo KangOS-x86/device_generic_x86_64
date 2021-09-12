@@ -24,3 +24,6 @@ BOARD_FLASH_BLOCK_SIZE := 512
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
 include device/generic/common/BoardConfig.mk
+
+# Inherit common KangOS stuff
+$(call inherit-product-if-exists,vendor/kang/config/common.mk)
